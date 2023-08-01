@@ -14,6 +14,7 @@ function App() {
     <div>
       <NavBar />
       <Switch>
+        {/* this is the top level route */}
         <Route path="/movies">
           <MoviesPage movies={movies} />
         </Route>
